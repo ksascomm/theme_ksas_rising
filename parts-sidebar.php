@@ -9,7 +9,7 @@
 					set_transient( 'campaign_' . $category_slug . 'sidebar_query', $campaign_sidebar_query, 2592000 ); }
 ?>
 <aside class="four columns" role="complementary" id="sidebar">
-	<h3 class="<?php echo $category_slug; ?>">Other <?php echo $category_name; ?> Stories</h3>
+	<h3 class="<?php echo $category_slug; ?>">Other <i style="font-weight:bold;"><?php echo $category_name; ?></i> Stories</h3>
 	<?php if ( $campaign_sidebar_query->have_posts() ) : while ( $campaign_sidebar_query->have_posts() ) : $campaign_sidebar_query->the_post(); ?>
 		<article class="row">
 			<a href="<?php the_permalink(); ?>">
