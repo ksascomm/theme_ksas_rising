@@ -1,0 +1,26 @@
+{
+    "name": "ksascomm/ksas_campaign",
+    "type": "wordpress-theme",
+    "license": "GPL2",
+  	"description": "Designed and developed by the Arts & Sciences Office of Communications. For use with krieger.jhu.edu/campaign only",
+  	"homepage": "http://github.com/ksascomm/theme_ksas_rising",
+  	"authors": [
+      {
+      "name": "Tim Gelles",
+      "email": "ksasweb@jhu.edu",
+      "homepage": "http://krieger.jhu.edu"
+      }
+    ],
+    "keywords": [
+      "wordpress"
+    ],
+  "support": {
+    "issues": "http://krieger.jhu.edu"
+  },
+  "require": {
+        "composer/installers": "~1.0"
+    },
+  "replace": {
+        "cpeckens/theme_ksas_rising": "1.0.*"
+    }
+}
